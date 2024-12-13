@@ -1,1 +1,131 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ViVa Games - Embark on endless adventures: Play anywhere, anytime!" />
+  <title>ViVa Games</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="logo">
+      <img src="viva_games.png" width="300px" alt="ViVa Games Logo">
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#games">Games</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Immerse Yourself in the World of ViVa Games</h2>
+      <p>Discover high-quality online games accessible to players around the globe, experience enthralling storylines
+        and thrilling gameplay like never before. Embark on endless adventures: Play anywhere, anytime!</p>
+      <a href="#games" class="cta-button">Explore Our Games</a>
+    </div>
+  </section>
+
+  <!-- Games Section -->
+  <section id="games" class="games-section">
+    <h3>Our Latest Titles</h3>
+    <div class="games-grid">
+      <article class="game-card">
+        <a href="https://kakele.io/?utm_source=viva">
+          <img src="kakele.png" alt="Game 1">
+          <h4>Kakele Online - MMORPG</h4>
+        </a>
+        <p>Kakele Online, Your Ultimate Cross Platform Fantasy: Prepare for a journey like no other, Kakele Online is
+          both a PC and mobile MMORPG. Immerse yourself in a 2D open world MMORPG that transcends boundaries, inviting
+          players from across the globe to join in an epic battle against monsters, explore the depths of mysterious
+          caves, complete quests, gather treasures, and more.</p>
+      </article>
+      <article class="game-card">
+        <a href="#">
+          <img src="https://via.placeholder.com/400x200?text=Game+2" alt="Game 2">
+          <h4>To Be Revealed in 2025</h4>
+        </a>
+        <p>Embark on heroic quests steeped in ancient lore and mythical creatures.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <h3>About ViVa Games</h3>
+    <p>At ViVa Games, we deliver high-quality online games accessible worldwide on any PC or mobile device, regardless
+      of hardware or internet capabilities. Our team of passionate developers, artists, and storytellers work tirelessly
+      to create unforgettable gaming experiences. We believe in innovation, community, and the power of play.</p>
+  </section>
+
+  <!-- News Section -->
+  <section id="news" class="news-section">
+    <h3>Latest News</h3>
+    <div class="news-grid">
+      <article class="news-card">
+        <h4>Kakele Expansion 2024.3 - The Orcs Of Walfendah</h4>
+        <p>The year-end expansion theme focuses on orcs! With their brutality and hostility, they bring a variety of new
+          types, from subordinates to fierce leaders. The expansion presents a story entirely dedicated to orcs, with
+          connections to various regions of the game. The orcs are eagerly awaiting the heroes of the Kakele kingdom; in
+          Walfendah, their base will be ready to challenge both beginner and veteran players.</p>
+        <a href="https://kakele.io/2024/12/02/the-orcs-of-walfendah/" class="read-more">Read More</a>
+      </article>
+      <article class="news-card">
+        <h4>Kakele Expansion 4.8 - The Ciborgs Uprising</h4>
+        <p>This expansion is packed with exciting new features, a host of improvements, and a ton of fresh content that
+          we know you're going to love. What makes this update truly special is that many of these changes come directly
+          from the feedback you've shared with us on our Discord forums. Your thoughts and suggestions play a crucial
+          role in shaping the future of Kakele, and we're grateful for your continued support and involvement. So, keep
+          sharing your ideas and feedback with us on Discord-your voice truly makes a difference!
+        </p>
+        <a href="https://kakele.io/2024/08/30/the-ciborgs-uprising/" class="read-more">Read More</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h3>Contact Us</h3>
+    <p>We'd love to hear from you. Here's how you can reach us:</p>
+    <div class="contact-info">
+      <p><strong>Email:</strong> <a href="mailto:contact@vivagames.online">contact@vivagames.online</a></p>
+      <p><strong>Address:</strong><br>1501 Lincoln Blvd, Suite 1138<br>Venice, CA 90291</p>
+    </div>
+    <div class="social-media">
+      <h4>Follow Us:</h4>
+      <div class="social-links">
+        <!-- Replace with your actual social media links and icons -->
+        <a href="#" class="social-icon" aria-label="Facebook">
+          <img src="https://via.placeholder.com/30x30?text=F" alt="Facebook">
+        </a>
+        <a href="#" class="social-icon" aria-label="Twitter">
+          <img src="https://via.placeholder.com/30x30?text=T" alt="Twitter">
+        </a>
+        <a href="#" class="social-icon" aria-label="Instagram">
+          <img src="https://via.placeholder.com/30x30?text=I" alt="Instagram">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> ViVa Games. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    // Dynamically set the current year in the footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
